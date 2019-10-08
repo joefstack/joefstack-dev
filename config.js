@@ -1,34 +1,34 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Paradigmshift', // <title>
-  manifestName: 'paradigmshift',
-  manifestShortName: 'Landing', // max 12 characters
+  siteTitle: 'JosephChow-Dev', // <title>
+  manifestName: 'josephchow-dev',
+  manifestShortName: 'josephchow', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#663399',
   manifestThemeColor: '#663399',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-paradigmshift/`, // This path is subpath of your hosting https://domain/portfolio
-  heading: 'Anubhav Srivastava',
-  subHeading: 'Full time Web Developer. Part time Open source contributor  ',
+  heading: 'Joseph Chow',
+  subHeading: 'Full Stack Web Developer. DevOps Engineer',
   // social
   socialLinks: [
     {
       icon: 'fa-github',
       name: 'Github',
-      url: 'https://github.com/anubhavsrivastava',
+      url: 'https://github.com/joefstack',
     },
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
+      url: 'https://twitter.com/joefstack',
     },
     {
       icon: 'fa-facebook',
       name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
+      url: 'https://facebook.com/joefstack',
     },
   ],
-  emailId: 'anubhav.srivastava00@gmail.com',
-  phone: '020182389123',
-  address: '11 Ashiyana, Mumbai, India',
+  emailId: 'joefstack@gmail.com',
+  phone: '647-964-3616',
+  address: 'Toronto, Ontario, Canada',
 };
