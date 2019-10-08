@@ -18,7 +18,7 @@ export default function SideFooter() {
         )}
         {config.address && (
           <li>
-            <h3>Address</h3>
+            <h3>Location</h3>
             <span>{config.address}</span>
           </li>
         )}

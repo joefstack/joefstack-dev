@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/website-icon.png',
   pathPrefix: `/gatsby-starter-paradigmshift/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Joseph Chow',
-  subHeading: 'Full Stack Web Developer. DevOps Engineer',
+  subHeading: 'Full Stack Web Developer. Cloud Architech and DevOps Engineer',
   // social
   socialLinks: [
     {
