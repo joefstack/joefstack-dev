@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Lightbox from 'react-images';
 
 class Gallery extends Component {
@@ -73,7 +73,7 @@ class Gallery extends Component {
   }
   render() {
     return (
-      <>
+      <Fragment>
         {this.renderGallery()}
         <Lightbox
           currentImage={this.state.currentImage}
@@ -88,7 +88,7 @@ class Gallery extends Component {
           onClickThumbnail={this.gotoImage}
           onClose={this.closeLightbox}
         />
-      </>
+      </Fragment>
     );
   }
 }

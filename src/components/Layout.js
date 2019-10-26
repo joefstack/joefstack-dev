@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
@@ -40,7 +40,7 @@ class Layout extends Component {
           }
         `}
         render={data => (
-          <>
+          <Fragment>
             <Helmet
               title={data.site.siteMetadata.title}
               meta={[
@@ -53,7 +53,7 @@ class Layout extends Component {
             <div className={isPreloaded ? 'main-body is-preload' : 'main-body'}>
               {children}
             </div>
-          </>
+          </Fragment>
         )}
       />
     );

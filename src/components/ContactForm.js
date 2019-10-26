@@ -1,15 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 export default function ContactForm() {
   return (
-    <>
+    <Fragment>
       <header>
         <h2>Say Hello</h2>
       </header>
       <div className="content">
         <p>
-          <strong>Auctor commodo</strong> interdum et malesuada fames ac ante
-          ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor
-          mattis sagittis.
+          <strong>I'm all ears.</strong> Please feel free to reach out if you
+          have any sort of question, inquiry or comment about what I do or how I
+          can help you!
         </p>
         <form>
           <div className="fields">
@@ -39,6 +39,6 @@ export default function ContactForm() {
           </ul>
         </form>
       </div>
-    </>
+    </Fragment>
   );
 }
