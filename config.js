@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'JosephChow-Dev', // <title>
+  siteTitle: 'Joseph Chow', // <title>
   manifestName: 'josephchow-dev',
   manifestShortName: 'josephchow', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#C2FCF7',
+  manifestThemeColor: '#C2FCF7',
   manifestDisplay: 'standalone',
-  manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-paradigmshift/`, // This path is subpath of your hosting https://domain/portfolio
+  manifestIcon: 'src/assets/img/50-Programmer.png',
+  pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Joseph Chow',
-  subHeading: 'Full Stack Web Developer. Cloud Architech and DevOps Engineer',
+  subHeading: 'Full Stack Web Developer. AWS Certified DevOps Engineer',
   // social
   socialLinks: [
     {

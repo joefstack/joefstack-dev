@@ -5,7 +5,7 @@ import Footer from '../components/Footer';
 import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
-import heroImage from '../assets/images/pic01.jpg';
+import heroImage from '../assets/images/hero.jpg';
 import pic2 from '../assets/images/pic02.jpg';
 import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
@@ -88,14 +88,14 @@ const IndexPage = () => (
         <Header />
         <div className="content">
           <span className="image fill" data-position="center">
-            <img src={heroImage} alt="" />
+            <img src={heroImage} alt="Frogs have it made, they get to eat what bugs them." />
           </span>
         </div>
       </section>
 
       <section id="first">
         <header>
-          <h2>Magna sed nullam nisl adipiscing</h2>
+          <h2>Keeping it simple</h2>
         </header>
         <div className="content">
           <p>

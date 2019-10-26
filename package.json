@@ -1,14 +1,10 @@
 {
-  "name": "gatsby-starter-paradigmshift",
+  "name": "josephchow-dev",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Paradigm Shift by HTML5 UP",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift.git"
-  },
+  "description": "Personal brand website",
   "author": {
-    "name": "Anubhav Srivastava",
-    "email": "anubhav.srivastava00@gmail.com"
+    "name": "Joseph Chow",
+    "email": "joefstack@gmail.com"
   },
   "dependencies": {
     "gatsby": "^2.4.3",
@@ -34,6 +30,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "coveralls": "^3.0.7",
     "gh-pages": "^2.0.1",
     "prettier": "^1.17.0",
     "rimraf": "^2.6.3"
@@ -43,9 +40,5 @@
     "gatsby-starter",
     "gatsby-starter-paradigmshift"
   ],
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift/issues"
-  },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-paradigmshift#readme"
+  "license": "MIT"
 }
