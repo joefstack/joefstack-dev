@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa-twitter',
       name: 'Twitter',
-      url: 'https://twitter.com/joefstack',
+      url: 'https://twitter.com/Couri3r',
     },
     {
       icon: 'fa-facebook',
@@ -28,7 +28,7 @@ module.exports = {
       url: 'https://facebook.com/joefstack',
     },
   ],
-  emailId: 'joefstack@gmail.com',
+  emailId: 'contact@josephchow.dev',
   phone: '647-964-3616',
   address: 'Toronto, Ontario, Canada',
 };

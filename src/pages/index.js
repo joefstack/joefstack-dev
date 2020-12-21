@@ -102,14 +102,11 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>What I do.</strong> Experienced cloud and software architect
-            focused on the proper utilization of technology to solve business
-            problems. Applying proper cost benefit analysis to every project to
-            find the optimal technological solution. With proven leadership
-            skills and strong mentoring capabilities, I can not only find the
-            best fit solution, I can also communicate It effectively to clients,
-            prospective clients (pre-sales), management and the development
-            team.
+            <strong>What I do.</strong> Full Stack MERN developer with expereince 
+            working across all channels of a production tech stack. Experience 
+            collaborating with LEAN development teams and meeting project deadlines.
+            Quick learner and flexible worker with a passion for creating useful 
+            applications.
           </p>
           <span className="image main">
             <img src={portfolio} alt="Temporary portfolio" />
@@ -123,10 +120,12 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>My tech stack.</strong> Deploy applications on Kubernetes
-            Cluster. Manage the Kubernetes pod schedule within the Kubernetes
-            cluster (Microservices). Create and Manage AWS resources like EC2,
-            VPC, S3 bucket, Security Groups, Elastic Load Balancer.
+            <strong>My tech stack.</strong> Up to date knowledge with JS concurrency.
+            Deep understanding of HTML5 / CSS / SASS with experience working with
+            modern React/Redux. Experience designing RESTful APIs with Express, Mongo and SQL. 
+            Can setup and deploy projects on VPCs using Docker. Currently learning how to create 
+            and manage AWS resources like EC2,
+            VPC, S3 bucket, Security Groups, and Elastic Load Balancers.
           </p>
           <ul className="feature-icons">
             <li className="icon fa-laptop">Docker</li>
@@ -137,9 +136,9 @@ const IndexPage = () => (
             <li className="icon fa-map-marker">TensorFlow/Keras</li>
           </ul>
           <p>
-            I can help. I’m currently available for freelance work. If you have
-            a project that you want to get started, think you need my help with
-            something or just fancy saying hey, then get in touch.
+            I can help. I’m currently available to join a team. I have expereince working
+            within project management on platforms like JIRA. Excellent at organization and
+            communication to meld well in any environment.
           </p>
         </div>
       </section>
