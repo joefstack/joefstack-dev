@@ -9,7 +9,7 @@ module.exports = {
   manifestIcon: 'src/assets/img/50-Programmer.png',
   pathPrefix: `/`, // This path is subpath of your hosting https://domain/portfolio
   heading: 'Joseph Chow',
-  subHeading: 'Full Stack Web Developer. AWS Certified DevOps Engineer',
+  subHeading: 'Full Stack Web Developer. Certified debugger.',
   // social
   socialLinks: [
     {

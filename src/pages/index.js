@@ -6,7 +6,7 @@ import Header from '../components/Header';
 import SideFooter from '../components/SideFooter';
 
 import heroImage from '../assets/images/hero.jpg';
-import portfolio from '../assets/images/temp-portfolio.jpg';
+import portfolio from '../assets/images/temp-portfolio.png';
 // import Gallery from '../components/Gallery';
 import ContactForm from '../components/ContactForm';
 // import { Link } from 'gatsby';
@@ -102,11 +102,11 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>What I do.</strong> Full Stack MERN developer with expereince 
-            working across all channels of a production tech stack. Experience 
-            collaborating with LEAN development teams and meeting project deadlines.
-            Quick learner and flexible worker with a passion for creating useful 
-            applications.
+            <strong>What I do.</strong> Full Stack MERN developer with
+            expereince working across all channels of a production tech stack.
+            Experience collaborating with LEAN development teams and meeting
+            project deadlines. Quick learner and flexible worker with a passion
+            for creating useful applications.
           </p>
           <span className="image main">
             <img src={portfolio} alt="Temporary portfolio" />
@@ -120,12 +120,13 @@ const IndexPage = () => (
         </header>
         <div className="content">
           <p>
-            <strong>My tech stack.</strong> Up to date knowledge with JS concurrency.
-            Deep understanding of HTML5 / CSS / SASS with experience working with
-            modern React/Redux. Experience designing RESTful APIs with Express, Mongo and SQL. 
-            Can setup and deploy projects on VPCs using Docker. Currently learning how to create 
-            and manage AWS resources like EC2,
-            VPC, S3 bucket, Security Groups, and Elastic Load Balancers.
+            <strong>My tech stack.</strong> Up to date knowledge with JS
+            concurrency. Deep understanding of HTML5 / CSS / SASS with
+            experience working with modern React/Redux. Experience designing
+            RESTful APIs with Express, Mongo and SQL. Can setup and deploy
+            projects on VPCs using Docker. Currently learning how to create and
+            manage AWS resources like EC2, VPC, S3 bucket, Security Groups, and
+            Elastic Load Balancers.
           </p>
           <ul className="feature-icons">
             <li className="icon fa-laptop">Docker</li>
@@ -136,9 +137,10 @@ const IndexPage = () => (
             <li className="icon fa-map-marker">TensorFlow/Keras</li>
           </ul>
           <p>
-            I can help. I’m currently available to join a team. I have expereince working
-            within project management on platforms like JIRA. Excellent at organization and
-            communication to meld well in any environment.
+            I can help. I’m currently available to join a team. I have
+            expereince working within project management on platforms like JIRA.
+            Excellent at organization and communication to meld well in any
+            environment.
           </p>
         </div>
       </section>

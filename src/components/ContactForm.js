@@ -8,8 +8,8 @@ export default function ContactForm() {
       <div className="content">
         <p>
           <strong>I'm all ears.</strong> Please feel free to reach out if you
-          have any sort of question, inquiry or comment about what I do or how I
-          can help you!
+          have any questions, opportunities, inquiries or comment about what I
+          do or how I can help you!
         </p>
         <form>
           <div className="fields">
