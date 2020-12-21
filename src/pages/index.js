@@ -109,8 +109,25 @@ const IndexPage = () => (
             applications.
           </p>
           <span className="image main">
-           <img src={portfolio} href="joefstack.netlify.app" alt="Github Portfolio" />
+           <img src={portfolio} alt="Github Portfolio" />
           </span>
+          <ul className="actions">
+            <li>
+              <a
+                href="https://joefstack.netlify.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="button primary large"
+              >
+                Check it out!
+              </a>
+            </li>
+            {/* <li>
+              <a href="/#" className="button large">
+                Learn More
+              </a>
+            </li> */}
+          </ul>
         </div>
       </section>
 
@@ -219,7 +236,7 @@ const IndexPage = () => (
                 rel="noopener noreferrer"
                 className="button primary large"
               >
-                Let's go!
+                Check it out!
               </a>
             </li>
             {/* <li>
